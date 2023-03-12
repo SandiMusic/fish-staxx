@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2240DE829AEB43E00E87E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240DE729AEB43E00E87E88 /* AppDelegate.swift */; };
+		E2240DF029AEB43E00E87E88 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240DEF29AEB43E00E87E88 /* GameViewController.swift */; };
+		E2240DF529AEB43F00E87E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2240DF429AEB43F00E87E88 /* Assets.xcassets */; };
+		E2240DF829AEB43F00E87E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2240DF629AEB43F00E87E88 /* LaunchScreen.storyboard */; };
+		E2240E2029AFFCAB00E87E88 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E1F29AFFCAB00E87E88 /* Location.swift */; };
+		E2240E2A29B1606B00E87E88 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2929B1606B00E87E88 /* LandingViewController.swift */; };
+		E2240E2C29B164A700E87E88 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2B29B164A700E87E88 /* RootViewController.swift */; };
+		E2240E2F29B29F1200E87E88 /* ExtensionAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */; };
+		E2240E3529B67F9200E87E88 /* AutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E3429B67F9200E87E88 /* AutoLayoutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2240DFE29AEB44000E87E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2240DDC29AEB43E00E87E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2240DE329AEB43E00E87E88;
+			remoteInfo = "three-kings";
+		};
+		E2240E0829AEB44000E87E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2240DDC29AEB43E00E87E88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2240DE329AEB43E00E87E88;
+			remoteInfo = "three-kings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2240DE429AEB43E00E87E88 /* fish-staxx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fish-staxx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2240DE729AEB43E00E87E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2240DEF29AEB43E00E87E88 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E2240DF429AEB43F00E87E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2240DF729AEB43F00E87E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2240DFD29AEB44000E87E88 /* fish-staxxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fish-staxxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2240E0729AEB44000E87E88 /* fish-staxxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fish-staxxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2240E1F29AFFCAB00E87E88 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E2240E2929B1606B00E87E88 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		E2240E2B29B164A700E87E88 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAppDelegate.swift; sourceTree = "<group>"; };
+		E2240E3429B67F9200E87E88 /* AutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2240DE129AEB43E00E87E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240DFA29AEB44000E87E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240E0429AEB44000E87E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2240DDB29AEB43E00E87E88 = {
+			isa = PBXGroup;
+			children = (
+				E2240DE629AEB43E00E87E88 /* fish-staxx */,
+				E2240DE529AEB43E00E87E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2240DE529AEB43E00E87E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2240DE429AEB43E00E87E88 /* fish-staxx.app */,
+				E2240DFD29AEB44000E87E88 /* fish-staxxTests.xctest */,
+				E2240E0729AEB44000E87E88 /* fish-staxxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2240DE629AEB43E00E87E88 /* fish-staxx */ = {
+			isa = PBXGroup;
+			children = (
+				E2240DE729AEB43E00E87E88 /* AppDelegate.swift */,
+				E2240E2D29B29EF600E87E88 /* Utilities */,
+				E2240E1C29AEB95700E87E88 /* Model */,
+				E2240E1B29AEB8F300E87E88 /* View Controllers */,
+				E2240DF429AEB43F00E87E88 /* Assets.xcassets */,
+				E2240DF629AEB43F00E87E88 /* LaunchScreen.storyboard */,
+			);
+			path = "fish-staxx";
+			sourceTree = "<group>";
+		};
+		E2240E1B29AEB8F300E87E88 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2240DEF29AEB43E00E87E88 /* GameViewController.swift */,
+				E2240E2929B1606B00E87E88 /* LandingViewController.swift */,
+				E2240E2B29B164A700E87E88 /* RootViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E2240E1C29AEB95700E87E88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2240E1F29AFFCAB00E87E88 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2240E2D29B29EF600E87E88 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */,
+				E2240E3429B67F9200E87E88 /* AutoLayoutView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2240DE329AEB43E00E87E88 /* fish-staxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2240E1129AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxx" */;
+			buildPhases = (
+				E2240DE029AEB43E00E87E88 /* Sources */,
+				E2240DE129AEB43E00E87E88 /* Frameworks */,
+				E2240DE229AEB43E00E87E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fish-staxx";
+			productName = "three-kings";
+			productReference = E2240DE429AEB43E00E87E88 /* fish-staxx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2240DFC29AEB44000E87E88 /* fish-staxxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2240E1429AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxxTests" */;
+			buildPhases = (
+				E2240DF929AEB44000E87E88 /* Sources */,
+				E2240DFA29AEB44000E87E88 /* Frameworks */,
+				E2240DFB29AEB44000E87E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2240DFF29AEB44000E87E88 /* PBXTargetDependency */,
+			);
+			name = "fish-staxxTests";
+			productName = "three-kingsTests";
+			productReference = E2240DFD29AEB44000E87E88 /* fish-staxxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2240E0629AEB44000E87E88 /* fish-staxxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2240E1729AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxxUITests" */;
+			buildPhases = (
+				E2240E0329AEB44000E87E88 /* Sources */,
+				E2240E0429AEB44000E87E88 /* Frameworks */,
+				E2240E0529AEB44000E87E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2240E0929AEB44000E87E88 /* PBXTargetDependency */,
+			);
+			name = "fish-staxxUITests";
+			productName = "three-kingsUITests";
+			productReference = E2240E0729AEB44000E87E88 /* fish-staxxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2240DDC29AEB43E00E87E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E2240DE329AEB43E00E87E88 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E2240DFC29AEB44000E87E88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E2240DE329AEB43E00E87E88;
+					};
+					E2240E0629AEB44000E87E88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E2240DE329AEB43E00E87E88;
+					};
+				};
+			};
+			buildConfigurationList = E2240DDF29AEB43E00E87E88 /* Build configuration list for PBXProject "fish-staxx" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2240DDB29AEB43E00E87E88;
+			productRefGroup = E2240DE529AEB43E00E87E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2240DE329AEB43E00E87E88 /* fish-staxx */,
+				E2240DFC29AEB44000E87E88 /* fish-staxxTests */,
+				E2240E0629AEB44000E87E88 /* fish-staxxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2240DE229AEB43E00E87E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2240DF529AEB43F00E87E88 /* Assets.xcassets in Resources */,
+				E2240DF829AEB43F00E87E88 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240DFB29AEB44000E87E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240E0529AEB44000E87E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2240DE029AEB43E00E87E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2240E2C29B164A700E87E88 /* RootViewController.swift in Sources */,
+				E2240E2F29B29F1200E87E88 /* ExtensionAppDelegate.swift in Sources */,
+				E2240DF029AEB43E00E87E88 /* GameViewController.swift in Sources */,
+				E2240E2029AFFCAB00E87E88 /* Location.swift in Sources */,
+				E2240E2A29B1606B00E87E88 /* LandingViewController.swift in Sources */,
+				E2240E3529B67F9200E87E88 /* AutoLayoutView.swift in Sources */,
+				E2240DE829AEB43E00E87E88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240DF929AEB44000E87E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2240E0329AEB44000E87E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2240DFF29AEB44000E87E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2240DE329AEB43E00E87E88 /* fish-staxx */;
+			targetProxy = E2240DFE29AEB44000E87E88 /* PBXContainerItemProxy */;
+		};
+		E2240E0929AEB44000E87E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2240DE329AEB43E00E87E88 /* fish-staxx */;
+			targetProxy = E2240E0829AEB44000E87E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2240DF629AEB43F00E87E88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2240DF729AEB43F00E87E88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2240E0F29AEB44000E87E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2240E1029AEB44000E87E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2240E1229AEB44000E87E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2240E1329AEB44000E87E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2240E1529AEB44000E87E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fish-staxx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fish-staxx";
+			};
+			name = Debug;
+		};
+		E2240E1629AEB44000E87E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fish-staxx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fish-staxx";
+			};
+			name = Release;
+		};
+		E2240E1829AEB44000E87E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fish-staxx";
+			};
+			name = Debug;
+		};
+		E2240E1929AEB44000E87E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PHXR324M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lillytech.fish-staxxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fish-staxx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2240DDF29AEB43E00E87E88 /* Build configuration list for PBXProject "fish-staxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2240E0F29AEB44000E87E88 /* Debug */,
+				E2240E1029AEB44000E87E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2240E1129AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2240E1229AEB44000E87E88 /* Debug */,
+				E2240E1329AEB44000E87E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2240E1429AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2240E1529AEB44000E87E88 /* Debug */,
+				E2240E1629AEB44000E87E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2240E1729AEB44000E87E88 /* Build configuration list for PBXNativeTarget "fish-staxxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2240E1829AEB44000E87E88 /* Debug */,
+				E2240E1929AEB44000E87E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2240DDC29AEB43E00E87E88 /* Project object */;
+}
