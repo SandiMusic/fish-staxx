@@ -9,26 +9,39 @@ import UIKit
 
 class GameViewController: UIViewController {
     
-    var boardView: AutoLayoutView = AutoLayoutView()
+    let board: Board = Board()
     
-    let boardSize: CGFloat = 0.8
+    var boardView: BoardView = BoardView(height: 0.5, aspect: 4 / 3)
+    
+    let tileAspectRatio: CGFloat = 3 / 4
+    let tileHeight: CGFloat = 1.0 / CGFloat(Board.rows)
+    
+    var tilePadding: CGFloat?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.displayBoard()
-        
+        self.displaySetup()
     }
  
-    func displayBoard() {
+    func displaySetup() {
         configureBoard()
+        addPlates()
     }
     
     func configureBoard() {
         self.view.addSubview(self.boardView)
         self.boardView.backgroundColor = .yellow
         self.boardView.anchorCenter(to: self.view)
-        self.boardView.anchorSize(to: self.view, widthMultiplier: self.boardSize, aspectRatio: (4 / 3))
+        self.boardView.anchorSize(to: self.view)
+    }
+        
+    func addPlates() {
+        for tile in self.board.plates {
+            self.boardView.addSubview(tile.tileView)
+            tile.tileView.anchorSize(to: self.boardView)
+            tile.tileView.anchorAtBoardLocation(location: tile.location, on: self.boardView)
+        }
     }
     
 }

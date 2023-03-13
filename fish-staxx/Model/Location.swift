@@ -9,6 +9,7 @@ struct Location: CustomStringConvertible {
     
     var row: Int
     var column: Int
+    var offset: Int = 0
     
     init(_ row: Int, _ column: Int) {
         self.row = row
