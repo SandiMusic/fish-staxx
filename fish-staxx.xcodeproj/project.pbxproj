@@ -15,11 +15,13 @@
 		E2240E2A29B1606B00E87E88 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2929B1606B00E87E88 /* LandingViewController.swift */; };
 		E2240E2C29B164A700E87E88 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2B29B164A700E87E88 /* RootViewController.swift */; };
 		E2240E2F29B29F1200E87E88 /* ExtensionAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */; };
-		E282C8FF29BE105500CE5632 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C8FE29BE105500CE5632 /* Board.swift */; };
+		E282C8FF29BE105500CE5632 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C8FE29BE105500CE5632 /* GameModel.swift */; };
 		E282C90129BE11C000CE5632 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90029BE11C000CE5632 /* Tile.swift */; };
 		E282C90329BE140400CE5632 /* TileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90229BE140400CE5632 /* TileType.swift */; };
 		E282C90529BE96C400CE5632 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90429BE96C400CE5632 /* BoardView.swift */; };
 		E282C90729BE96F800CE5632 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90629BE96F800CE5632 /* TileView.swift */; };
+		E282C90A29BF8B9700CE5632 /* AutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90929BF8B9700CE5632 /* AutoLayoutView.swift */; };
+		E282C90C29C12FF600CE5632 /* ExtensionSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282C90B29C12FF600CE5632 /* ExtensionSwipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +53,13 @@
 		E2240E2929B1606B00E87E88 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		E2240E2B29B164A700E87E88 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAppDelegate.swift; sourceTree = "<group>"; };
-		E282C8FE29BE105500CE5632 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E282C8FE29BE105500CE5632 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		E282C90029BE11C000CE5632 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		E282C90229BE140400CE5632 /* TileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileType.swift; sourceTree = "<group>"; };
 		E282C90429BE96C400CE5632 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		E282C90629BE96F800CE5632 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		E282C90929BF8B9700CE5632 /* AutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutView.swift; sourceTree = "<group>"; };
+		E282C90B29C12FF600CE5632 /* ExtensionSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSwipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				E2240DE729AEB43E00E87E88 /* AppDelegate.swift */,
 				E2240E2D29B29EF600E87E88 /* Utilities */,
 				E2240E1C29AEB95700E87E88 /* Model */,
+				E282C90829BF8B7B00CE5632 /* View */,
 				E2240E1B29AEB8F300E87E88 /* View Controllers */,
 				E2240DF429AEB43F00E87E88 /* Assets.xcassets */,
 				E2240DF629AEB43F00E87E88 /* LaunchScreen.storyboard */,
@@ -117,8 +122,6 @@
 		E2240E1B29AEB8F300E87E88 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E282C90429BE96C400CE5632 /* BoardView.swift */,
-				E282C90629BE96F800CE5632 /* TileView.swift */,
 				E2240DEF29AEB43E00E87E88 /* GameViewController.swift */,
 				E2240E2929B1606B00E87E88 /* LandingViewController.swift */,
 				E2240E2B29B164A700E87E88 /* RootViewController.swift */,
@@ -130,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				E2240E1F29AFFCAB00E87E88 /* Location.swift */,
-				E282C8FE29BE105500CE5632 /* Board.swift */,
+				E282C8FE29BE105500CE5632 /* GameModel.swift */,
 				E282C90029BE11C000CE5632 /* Tile.swift */,
 				E282C90229BE140400CE5632 /* TileType.swift */,
 			);
@@ -141,8 +144,19 @@
 			isa = PBXGroup;
 			children = (
 				E2240E2E29B29F1200E87E88 /* ExtensionAppDelegate.swift */,
+				E282C90B29C12FF600CE5632 /* ExtensionSwipe.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E282C90829BF8B7B00CE5632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E282C90929BF8B9700CE5632 /* AutoLayoutView.swift */,
+				E282C90429BE96C400CE5632 /* BoardView.swift */,
+				E282C90629BE96F800CE5632 /* TileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +294,14 @@
 				E2240E2F29B29F1200E87E88 /* ExtensionAppDelegate.swift in Sources */,
 				E2240DF029AEB43E00E87E88 /* GameViewController.swift in Sources */,
 				E2240E2029AFFCAB00E87E88 /* Location.swift in Sources */,
+				E282C90A29BF8B9700CE5632 /* AutoLayoutView.swift in Sources */,
 				E2240E2A29B1606B00E87E88 /* LandingViewController.swift in Sources */,
 				E282C90129BE11C000CE5632 /* Tile.swift in Sources */,
 				E282C90329BE140400CE5632 /* TileType.swift in Sources */,
-				E282C8FF29BE105500CE5632 /* Board.swift in Sources */,
+				E282C8FF29BE105500CE5632 /* GameModel.swift in Sources */,
 				E282C90729BE96F800CE5632 /* TileView.swift in Sources */,
 				E2240DE829AEB43E00E87E88 /* AppDelegate.swift in Sources */,
+				E282C90C29C12FF600CE5632 /* ExtensionSwipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

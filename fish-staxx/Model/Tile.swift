@@ -39,7 +39,7 @@ class Tile {
     init(_ location: Location, tile: TileType) {
         self.location = location
         self.tileType = tile
-        self.tileView = TileView(height: 1.0 / CGFloat(Board.rows), aspect: 3 / 4, parentAspect: 4 / 3)
+        self.tileView = TileView(height: 1.0 / CGFloat(GameModel.rows), aspect: 3 / 4, parentAspect: 4 / 3)
         
         self.tileView.backgroundColor = self.tileType.colour
     }

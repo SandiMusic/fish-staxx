@@ -9,7 +9,7 @@ import UIKit
 
 enum TileType: Int, CustomStringConvertible, CaseIterable {
     
-    case bottom = 0, blue, red, yellow, green, black, top, plate
+    case bottom = 0, blue, red, magenta, green, black, top, plate
     
     var name: String {
         switch self {
@@ -19,8 +19,8 @@ enum TileType: Int, CustomStringConvertible, CaseIterable {
             return "blue"
         case .red:
             return "red"
-        case .yellow:
-            return "yellow"
+        case .magenta:
+            return "magenta"
         case .green:
             return "green"
         case .black:
@@ -40,8 +40,8 @@ enum TileType: Int, CustomStringConvertible, CaseIterable {
             return .blue
         case .red:
             return .red
-        case .yellow:
-            return .yellow
+        case .magenta:
+            return .magenta
         case .green:
             return .green
         case .black:

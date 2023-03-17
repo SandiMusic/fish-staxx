@@ -5,7 +5,7 @@
 //  Created by Sandi Music on 01/03/2023.
 //
 
-struct Location: CustomStringConvertible {
+class Location: CustomStringConvertible {
     
     var row: Int
     var column: Int
@@ -14,6 +14,15 @@ struct Location: CustomStringConvertible {
     init(_ row: Int, _ column: Int) {
         self.row = row
         self.column = column
+    }
+    
+    func drop() {
+        if self.offset == 0 {
+            self.offset = 1
+        } else {
+            self.offset = 0
+            self.row += 1
+        }
     }
     
     var description: String {
